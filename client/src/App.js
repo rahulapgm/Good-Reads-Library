@@ -5,10 +5,11 @@ import AddEditFormComponent from './components/AddEditFormComponent';
 import {updateBookItem, setUpdateFormVisibility, setUpdateItem} from './actions';
 import { getBookList } from './actions';
 import {connect} from 'react-redux';
-
 import './App.css';
-class App extends Component {
-    
+
+//App Component starts
+
+class App extends Component { 
     componentDidMount(){
         this.props.getBookList();
     }

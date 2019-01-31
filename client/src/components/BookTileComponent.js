@@ -2,7 +2,6 @@ import React from 'react';
 import {connect} from "react-redux";
 import './css/booktile.css';
 import {updateBookItem, setUpdateFormVisibility, setUpdateItem} from '../actions';
-import AddEditFormComponent from './AddEditFormComponent';
 
 const BookTileComponent = (props) => {
     let blurEffect= props.updateFormVisibility ? {filter: "blur(5px)", pointerEvents:"none"} : {}

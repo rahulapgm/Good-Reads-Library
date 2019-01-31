@@ -1,0 +1,9 @@
+.bookGallery{
+    display:flex;
+    flex-flow: row wrap;
+    flex:1 0 10%;
+    justify-content:center;
+    flex-start:center;
+    position:relative;
+    top:3em;
+}

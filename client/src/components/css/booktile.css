@@ -1,0 +1,61 @@
+.todotile{
+    text-align:left;
+    margin:1em;
+    width:10em;
+    height:11em;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.tileText{
+    padding-top: 1.2rem;
+    padding-left:.5rem;
+    margin-bottom: 1em;;
+}
+.todooperation{
+    float:right;
+}
+i{
+    font-size:.7em;
+    padding:.4rem;
+    clear: both;
+}
+p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.editbutton{
+ background: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698400-icon-136-document-edit-512.png") no-repeat;
+ background-size:98%;
+ width:2.4em;
+ height:2.4em;
+ border: none;
+ margin-left:2em;
+}
+.availbilityInd{
+    border-radius:50%;
+    margin-right:.2em;
+    margin-top:.2em;
+    width:1.85rem;
+    height:1.85rem;
+    float:right;
+    border:none;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    font-size:.55em;
+    text-align:center;
+}
+.availbilityInd:focus{
+    outline:none;
+    transition: all 0.3s ease 0s !important;
+}
+.availbilityInd:hover{
+    color: black;
+    background-color: white !important;
+    transition: all 0.3s ease 0s;
+}
+.yearOfRel{
+    font-style: italic;font-size:.6em;
+    margin-left:.8em;
+}
+hr{
+    margin:.5em;
+}

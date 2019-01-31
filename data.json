@@ -1,0 +1,241 @@
+{
+    "data":[{
+      "id":1,
+      "availabiltyInd":"IN",
+      "bookName": "Theory of Computation",
+      "bookAuthor":"Alan Turing",
+      "bookDesc":"Computer science",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":2,
+      "availabiltyInd":"OUT",
+      "bookName": "Eloquent JavaScript",
+      "bookAuthor":"Marijn Haverbeke",
+      "bookDesc":"Like it or not, JavaScript is everywhere these days-from browser to server to mobile-and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who once found himself in the same position",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":3,
+      "availabiltyInd":"IN",
+      "bookName": "JS: Definitive Guide",
+      "bookAuthor":"Chinua Achebe",
+      "bookDesc":"ECMAScript 6 represents the biggest update to the core of JavaScript in the history of the language. In Understanding ECMAScript 6, expert developer Nicholas C. Zakas provides a complete guide to the object types, syntax, and other exciting changes that ECMAScript 6 brings to JavaScript.",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":4,
+      "availabiltyInd":"OUT",
+      "bookName": "The Lightning Thief",
+      "bookAuthor":"Alan Turing",
+      "bookDesc":"Thriller",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":5,
+      "availabiltyInd":"IN",
+      "bookName": "The Sea of Monsters",
+      "bookAuthor":"Alan Turing",
+      "bookDesc":"fantasy",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":6,
+      "availabiltyInd":"OUT",
+      "bookName": "Sophie's World",
+      "bookAuthor":"fantasy",
+      "bookDesc":"fantasy",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":7,
+      "availabiltyInd":"IN",
+      "bookName": "Memoirs of Hadrian",
+      "bookAuthor":"Marguerite Yourcenar",
+      "bookDesc":"fantasy",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":8,
+      "availabiltyInd":"OUT",
+      "bookName": "Sanskrit",
+      "bookAuthor":"Valmiki",
+      "bookDesc":"Thriller",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":9,
+      "availabiltyInd":"IN",
+      "bookName": "Anna Karenina",
+      "bookAuthor":"Leo Tolstoy",
+      "bookDesc":"Thriller",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":10,
+      "availabiltyInd":"OUT",
+      "bookName": "War and Peace",
+      "bookAuthor":"Leo Tolstoy",
+      "bookDesc":"Thriller",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":11,
+      "availabiltyInd":"OUT",
+      "bookName": "Leo Tolstoy",
+      "bookAuthor":"Leo Tolstoy",
+      "bookDesc":"Thriller",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":12,
+      "availabiltyInd":"IN",
+      "bookName": "Gulliver's Travels",
+      "bookAuthor":"Jonathan Swift",
+      "bookDesc":"Thriller",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":13,
+      "availabiltyInd":"IN",
+      "bookName": "Ramayana",
+      "bookAuthor":"Valmiki",
+      "bookDesc":"History",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":14,
+      "availabiltyInd":"OUT",
+      "bookName": "Othello",
+      "bookAuthor":"Shakespeare",
+      "bookDesc":"History",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":15,
+      "availabiltyInd":"IN",
+      "bookName": "King Lear",
+      "bookAuthor":"Shakespeare",
+      "bookDesc":"History",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":16,
+      "availabiltyInd":"OUT",
+      "bookName": "Hamlet",
+      "bookAuthor":"Shakespeare",
+      "bookDesc":"History",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":17,
+      "availabiltyInd":"IN",
+      "bookName": "Blindness",
+      "bookAuthor":"Shakespeare",
+      "bookDesc":"History",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":18,
+      "availabiltyInd":"OUT",
+      "bookName": "Bostan",
+      "bookAuthor":"Saadi",
+      "bookDesc":"History",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":19,
+      "availabiltyInd":"IN",
+      "bookName": "Tales",
+      "bookAuthor":"Edgar Allan",
+      "bookDesc":"History",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":20,
+      "availabiltyInd":"IN",
+      "bookName": "Roman Empire",
+      "bookAuthor":"Ovid",
+      "bookDesc":"History",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":21,
+      "availabiltyInd":"IN",
+      "bookName": "Lolita",
+      "bookAuthor":"Vladimir",
+      "bookDesc":"hello world hello world hello world",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":22,
+      "availabiltyInd":"OUT",
+      "bookName": "James Bond",
+      "bookAuthor":"Andrew",
+      "bookDesc":"hello world hello world hello world",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":23,
+      "availabiltyInd":"OUT",
+      "bookName": "Santa claus",
+      "bookAuthor":"James",
+      "bookDesc":"hello world hello world hello world",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":24,
+      "availabiltyInd":"OUT",
+      "bookName": "Wings of fire",
+      "bookAuthor":"Abdul Kalam",
+      "bookDesc":"hello world hello world hello world",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":25,
+      "availabiltyInd":"IN",
+      "bookName": "Aganpankh",
+      "bookAuthor":"Abdul Kalam",
+      "bookDesc":"hello world hello world hello world",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":26,
+      "availabiltyInd":"IN",
+      "bookName": "Data Structures",
+      "bookAuthor":"Rahul",
+      "bookDesc":"hello world hello world hello world",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":27,
+      "availabiltyInd":"OUT",
+      "bookName": "Algorithms",
+      "bookAuthor":"Naveen",
+      "bookDesc":"hello world hello world hello world",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":28,
+      "availabiltyInd":"IN",
+      "bookName": "Computer Graphics",
+      "bookAuthor":"Flento",
+      "bookDesc":"hello world hello world hello world",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":29,
+      "availabiltyInd":"OUT",
+      "bookName": "Css Tricks",
+      "bookAuthor":"Rahul",
+      "bookDesc":"hello world hello world hello world",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":30,
+      "availabiltyInd":"IN",
+      "bookName": "The Golden Notebook",
+      "bookAuthor":"Doris Lessing",
+      "bookDesc":"hello world hello world hello world",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":31,
+      "availabiltyInd":"OUT",
+      "bookName": "Poems",
+      "bookAuthor":"Rahul",
+      "bookDesc":"hello world hello world hello world",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":32,
+      "availabiltyInd":"IN",
+      "bookName": "Medea",
+      "bookAuthor":"Euripides",
+      "bookDesc":"History",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":33,
+      "availabiltyInd":"IN",
+      "bookName": "Pippi Longstocking",
+      "bookAuthor":"Astrid",
+      "bookDesc":"hello world hello world hello world",
+      "yearOfRelease":"2018-11-11"
+    },{
+      "id":34,
+      "availabiltyInd":"IN",
+      "bookName": "Independent People",
+      "bookAuthor":"Halld",
+      "bookDesc":"hello world hello world hello world",
+      "yearOfRelease":"2018-11-11"
+    }]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "library-app-express",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && npm run start",
+    "server ": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"nodemon server.js\" \"npm run client\"",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "reselect": "^4.0.0"
+  },
+  "engines": {
+    "node": "11.8.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  }
+}

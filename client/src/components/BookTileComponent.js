@@ -6,7 +6,7 @@ import {updateBookItem, setUpdateFormVisibility, setUpdateItem} from '../actions
 const BookTileComponent = (props) => {
     let blurEffect= props.updateFormVisibility ? {filter: "blur(5px)", pointerEvents:"none"} : {}
     let bookItem = props.bookItem
-    let availIndStyle= bookItem.availabiltyInd==="IN" ?  {backgroundColor:"green"} : {backgroundColor:"red"}
+    let availIndStyle= bookItem.availabiltyInd==="IN" ?  {backgroundColor:"#45a247"} : {backgroundColor:"#212121"}
     return(
         <React.Fragment>
            <div className="todotile" style={blurEffect}>
@@ -41,12 +41,12 @@ const handleAvailability = (e, bookItem, props) =>{
     e.preventDefault();
     if(bookItem.availabiltyInd==="OUT"){
         bookItem.availabiltyInd="IN"
-        e.target.style.background="green"
+        e.target.style.background="#45a247"
         e.target.value="IN"
     }
     else{
         bookItem.availabiltyInd="OUT"
-        e.target.style.background="red"
+        e.target.style.background="#212121"
         e.target.value="OUT"
     }
     props.updateBookItem(bookItem)

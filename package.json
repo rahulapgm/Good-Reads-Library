@@ -1,5 +1,5 @@
 {
-  "name": "library-app-express",
+  "name": "good-reads-library",
   "version": "1.0.0",
   "scripts": {
     "client": "cd client && npm run start",
@@ -11,6 +11,8 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.9",
     "reselect": "^4.0.0"
   },
   "engines": {

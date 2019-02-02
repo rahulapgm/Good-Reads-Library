@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from "react-redux";
-import './css/booktile.css';
+import './css/booktile.scss';
 import {updateBookItem, setUpdateFormVisibility, setUpdateItem} from '../actions';
 
 const BookTileComponent = (props) => {
@@ -9,15 +9,14 @@ const BookTileComponent = (props) => {
     let availIndStyle= bookItem.availabiltyInd==="IN" ?  {backgroundColor:"#45a247"} : {backgroundColor:"#212121"}
     return(
         <React.Fragment>
-           <div className="todotile" style={blurEffect}>
-                <div className="tileContent">
-                    <h6 className="tileText">{bookItem.bookName}</h6>
+           <div className="tile" style={blurEffect}>
+                    <h6 className="tileName">{bookItem.bookName}</h6>
                     <i>Author: {bookItem.bookAuthor}</i>
                     <p title={bookItem.bookDesc}><i>Desc: {bookItem.bookDesc}</i></p>
                     <hr/>
-                    <div style={{display:"inline-flex"}}>
+                    <div className="bookTileFooter">
                         <p className="yearOfRel">{bookItem.yearOfRelease}</p>
-                        <span className="todooperation">
+                        <div className="bookTileFooter">
                             <input type="button" className="editbutton" 
                             onClick={(e)=>{
                                 props.setUpdateItem(bookItem)
@@ -29,9 +28,8 @@ const BookTileComponent = (props) => {
                                 style={availIndStyle} 
                                 title={bookItem.availabiltyInd}
                                 onClick={(e)=>handleAvailability(e, bookItem, props)} defaultValue={bookItem.availabiltyInd} />
-                        </span>
+                        </div>
                     </div>
-                </div>
            </div>
         </React.Fragment>
     );

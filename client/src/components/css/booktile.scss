@@ -1,0 +1,52 @@
+/*booktile.scss*/
+$boxShadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+.tile{
+    text-align:left;
+    width:9em;
+    padding:1em;
+    margin:.5em;
+    box-shadow: $boxShadow; 
+    h6{
+        margin-top:0em;    
+    }       
+    i{
+        font-size:.7em;
+    }
+    p{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+.bookTileFooter{
+    display:flex;
+    justify-content:space-between;
+    p{    
+        font-style: italic;
+        font-size:.6em;
+    }
+    input{
+        border:none;
+        &:focus{
+            outline:none
+        }
+        &:hover{
+            color: black;
+            background-color: white !important;
+        }    
+        transition: all 0.3s ease 0s !important;
+    }
+}
+
+.editbutton{
+    background: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698400-icon-136-document-edit-512.png") no-repeat;
+    background-size:98%;
+    width:2.4em;
+}
+.availbilityInd{
+    border-radius:50%;
+    width:1.85rem;
+    box-shadow: $boxShadow;
+    font-size:.55em;
+    color:white;
+}

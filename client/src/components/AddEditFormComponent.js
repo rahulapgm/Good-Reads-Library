@@ -9,7 +9,7 @@ const AddEditFormComponent = (props) => {
     let formTitle="Add Your Book";
     let btnText="Add Book";
     let bookDesc="";
-    let availabiltyInd= Math.random(1,10) > 5 ? "OFF" :"ON"
+    let availabiltyInd= Math.random(1,10) > 5 ? "IN" :"OUT"
     if(props.formType==="EDIT"){
         let bookItem = props.bookItem;
         formTitle="Edit Your Book";

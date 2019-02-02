@@ -7,16 +7,14 @@ import {makeSelectBookList} from '../selectors';
 import './css/bookgallery.css';
 const BookGalleryComponent = (props) => {
     return(
-        <div>
+        <React.Fragment>
         <SearchComponent {...props}/>
         <div className="bookGallery">
             {props.bookList.map(bookItem => 
-                <div key={bookItem.id}>
-                    <BookTileComponent bookItem={bookItem}/>
-                </div>    
+                    <BookTileComponent key={bookItem.id} bookItem={bookItem}/>
             )}
         </div>
-        </div>
+        </React.Fragment>
     )
 }
 const mapStateToProps = createStructuredSelector({bookList: makeSelectBookList()});
